@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:Arial,sans-serif;
+    background-color:#f5f7fa;
+    line-height:1.6;
+    color:darkgrey;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color:white ;
+    color:white;
+}
+.logo{
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(143, 20, 20);
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    padding :20px;
+}
+nav ul li{
+    display:flex;
+    list-style:none;
+    font-weight: 500;
+    color:darkgray;
+    margin-right: 20px; 
+}
+.icons span{
+    margin-left:15px;
+    cursor:pointer;
+}
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color:#f5f7fa;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background:linear-gradient(to right);
+
+}
+.hero-img  {
+    max-width: 400px;
+    border-radius:20px;
+    display:block;
+
+}
+ h3{
+    color:blueviolet;
+   
+}
+ h2{
+    font-weight: bolder;
+    color:blueviolet;
+}
+
+
+.hero-text h1{
+    font-size:50px;
+    line-height: 1.2;
+    color:blueviolet;
+}
+.subscribe{
+    display:flex;
+    margin: 20px 0;
+}
+.subscribe input{
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    width: 250px;
+}
+.subscribe button{
+    padding: 12px 20px;
+    border:none;
+    background:red;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
+stats{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+    color:blueviolet;
+}
+
+    .section{
+        padding:60px;
+        text-align: center;
+    }
+.card{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3opx;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background:white;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 500px;
+    height:180px;
+    border-radius:15px;
+    color:blue;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33.33%-20px);
+    align-items: center;
+    justify-content: center;
+}
+.card button {
+    margin-top:15px;
+    padding: 10px 20px;
+    cursor:pointer;
+    background-color:orange ;
+    color:white;
+}
+.card -container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:30px;
+    justify-content: space-between;
+}
+footer{
+    background-color:plum;
+    color:black;
+    justify-content:center;
+}
+.right-img {
+    float: right;
+    margin-left: 20px;
+    width: 400px;
+    height: px;
+}
